@@ -1,0 +1,43 @@
+doctype html
+
+block vars
+
+html
+	head
+		include ../layout/_head
+	body.is-preload
+		#wrapper
+			#main
+				.inner
+					block header
+					
+					section
+						header.main
+							h1 Elements
+						block content
+					
+						h2#elements Elements
+						div.row.gtr-200
+							div.col-6.col-12-medium
+								block text-stuff
+								block lists
+								block definition
+								block actions
+								block pagination
+								block blockquote
+								block table
+								block alternate
+							div.col-6.col-12-medium
+								block buttons
+								block form
+								block image
+								block box
+								block code
+			#sidebar
+				.inner
+					block search
+					block menu
+					block mini-posts
+					block contacts
+					block footer
+		block scripts

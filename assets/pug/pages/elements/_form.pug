@@ -1,0 +1,51 @@
+<!-- Form -->
+h3 Form
+form(method="post" action="#")
+	div.row.gtr-uniform
+		div.col-6.col-12-xsmall
+			input(type="text" name="demo-name" id="demo-name" value="" placeholder="Name")
+		div.col-6.col-12-xsmall
+			input(type="email" name="demo-email" id="demo-email" value="" placeholder="Email")
+		
+		<!-- Break -->
+		div.col-12
+			select(name="demo-category" id="demo-category")
+				option(value="") - Category -
+				option(value="1") >Manufacturing
+				option(value="1") >Shipping
+				option(value="1") >Administration
+				option(value="1") >Human Resources
+
+		<!-- Break -->
+		div.col-4.col-12-small
+			input( type="radio" id="demo-priority-low" name="demo-priority" checked)
+			label(for="demo-priority-low") Low
+		
+		div.col-4.col-12-small
+			input( type="radio" id="demo-priority-normal" name="demo-priority")
+			label(for="demo-priority-normal") Normal
+		
+		div.col-4.col-12-small
+			input( type="radio" id="demo-priority-high" name="demo-priority")
+			label(for="demo-priority-high") High
+		
+		<!-- Break -->
+		div.col-6.col-12-small
+			input(type="checkbox" id="demo-copy" name="demo-copy")
+			label(for="demo-copy") Email me a copy
+		
+		div.col-6.col-12-small
+			input(type="checkbox" id="demo-human" name="demo-human" checked)
+			label(for="demo-human") I am a human
+		
+		<!-- Break -->
+		div.col-12
+			textarea(name="demo-message" id="demo-message" placeholder="Enter your message" rows="6")
+		
+		<!-- Break -->
+		div.col-12
+			ul.actions
+				li
+					input(type="submit" value="Send Message" class="primary")
+				li
+					input(type="reset" value="Reset")

@@ -1,0 +1,23 @@
+doctype html
+
+block vars
+
+html
+	head
+		include ../layout/_head
+	body.is-preload
+		#wrapper
+			#main
+				.inner
+					block header
+					block banner
+					block features
+					block posts
+			#sidebar
+				.inner
+					block search
+					block menu
+					block mini-posts
+					block contacts
+					block footer
+		block scripts

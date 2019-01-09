@@ -1,0 +1,31 @@
+extend assets/pug/base/_generic
+
+block vars
+    -
+        var page = {
+                title: "Generic - Editorial by HTML5 UP"
+            }
+
+block header
+    include assets/pug/layout/_header
+
+block content
+    include assets/pug/layout/_content
+    
+block search
+    include assets/pug/layout/_search
+
+block menu
+    include assets/pug/layout/_menu
+
+block mini-posts
+    include assets/pug/layout/_mini-posts
+
+block contacts
+    include assets/pug/layout/_contacts
+
+block footer
+    include assets/pug/layout/_footer
+
+block scripts
+    include assets/pug/layout/_scripts
