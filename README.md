@@ -1,7 +1,17 @@
-# Added
-- pug template 
+HTML5UP ["Editorial"](https://html5up.net/uploads/demos/editorial/) template with PUG.
 
-# Original
+# Installation
+
+	npm i
+
+# Use
+	
+	npm start
+
+Original .html files are in the folder 'old'.
+
+# License
+
 Editorial by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
